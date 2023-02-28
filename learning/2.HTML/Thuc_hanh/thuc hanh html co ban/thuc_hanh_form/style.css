@@ -1,0 +1,72 @@
+div.form {
+  display: block;
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.form_title {
+  background-color: orangered;
+  width: 500px;
+  text-align: center;
+}
+.title {
+  color: white;
+  margin-top: -3px;
+}
+.abc {
+  color: blue;
+}
+.xyz {
+  color: orangered;
+}
+.center {
+  margin-left: 65px;
+  margin-top: -17px;
+}
+.ght {
+  padding-left: 25px;
+}
+.info {
+  margin-left: 70px;
+}
+.margin-left {
+  margin-bottom: 10px;
+}
+.border {
+  border: 20px solid aqua;
+}
+/* bai 6.2 */
+.form_color {
+  background-color: yellow;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: auto;
+  text-align: center;
+}
+.form_title {
+  background-color: yellow;
+  width: 300px;
+  text-align: left;
+}
+.title {
+  color: blue;
+}
+.div {
+    margin-left: 10px;
+    margin-right: auto;
+    text-align: left;
+}
+/*bai 7*/
+.font {
+    font-weight: inherit;
+}
+.number1 {
+    width: 200px;
+}
