@@ -10,57 +10,62 @@
 </head>
 
 <body>
-    <div class="div">
-        <form class="background">
-            <h1 class="h1">Registration form</h1>
+    <div class="wrapper">
+        <form class="register-form">
+            <h1 class="title">Registration form</h1>
             <br />
             <div class="field">
-                <label for="ho">Firt Name</label>
-                <input type="text" name="firt name" id="ho" value="" class="width" /><br />
+                <label class="field-label" for="ho">Firt Name</label>
+                <input class="field-input" type="text" name="firt name" id="ho" value="" /><br />
             </div>
             <div class="field">
-                <label for="ten">Last Name</label>
-                <input type="text" name="last name" id="ten" value="" class="width" /><br />
+                <label class="field-label" for="ten">Last Name</label>
+                <input class="field-input" type="text" name="last name" id="ten" value="" /><br />
             </div>
             <div class="field">
-                <label for="bietdanh">Nick Name</label>
-                <input type="text" name="nick nam" id="bietdanh" value="" class="width" /><br />
+                <label class="field-label" for="bietdanh">Nick Name</label>
+                <input class="field-input" type="text" name="nick nam" id="bietdanh" value="" /><br />
             </div>
             <div class="field">
-                <label for="mail">E-mail</label>
-                <input type="email" name="email" id="mail" value="" class="width" /><br />
+                <label class="field-label" for="mail">E-mail</label>
+                <input class="field-input" type="email" name="email" id="mail" value="" /><br />
             </div>
             <div class="field">
-                <label for="pass">Password</label>
-                <input type="password" name="password" id="pass" value="" class="width" /><br />
+                <label class="field-label" for="pass">Password</label>
+                <input class="field-input" type="password" name="password" id="pass" value="" /><br />
             </div>
             <div class="field">
-                <label for="date">Date of Birth</label>
-                <input type="text" name="text" id="date" value="" class="width" /><br />
+                <label class="field-label" for="date">Date of Birth</label>
+                <input class="field-input" type="text" name="text" id="date" value="" /><br />
             </div>
             <div class="field">
-                <label>Gender</label>
-                <input type="radio" name="gender" id="male" value="Male" class="radio" />
-                <label for="male">Male</label>
-                <input type="radio" name="gender" id="female" value="Female" class="radio" />
-                <label for="female">Female</label>
-                <input type="radio" name="gender" id="other" value="other" class="radio" />
-                <label for="other">Other</label><br />
+                <label class="field-label">Gender</label>
+                <div class="wrapper-radio">
+                    <input class="radio-input" type="radio" name="gender" id="male" value="Male" />
+                    <label class="label-gender" for="male">Male</label>
+                    <input class="radio-input" type="radio" name="gender" id="female" value="Female" />
+                    <label class="label-gender" for="female">Female</label>
+                    <input class="radio-input" type="radio" name="gender" id="other" value="other" />
+                    <label class="label-gender" for="other">Other</label><br />
+                </div>
             </div>
             <div class="field">
-                <label for="mobile">Mobile</label>
-                <input type="tel" name="tel" id="mobile" value="" class="width" /><br />
+                <label class="field-label" for="mobile">Mobile</label>
+                <input class="field-input" type="tel" name="tel" id="mobile" value="" /><br />
             </div>
             <div class="field">
-                <label for="text">Address</label>
-                <textarea id="text" name="text" rows="max" cols="10" class="width"></textarea><br />
+                <label class="field-label" for="text">Address</label>
+                <textarea class="field-input" id="text" name="text" rows="max" cols="10"></textarea><br />
             </div>
-            <button type="submit" name="submit" id="nop" value="Submit">
-                Submit
-            </button>
-            <button type="reset" name="reset" id="nhaplai" value="Reset">
-                Reset
-            </button>
+            <div class="field">
+                <label class="field-label" for=""></label>
+                <button class="submit" type="submit" name="submit" id="nop" value="Submit">
+                    Submit
+                </button>
+                <button type="reset" name="reset" id="nhaplai" value="Reset">
+                    Reset
+                </button>
+            </div>
         </form>
     </div>
 </body>

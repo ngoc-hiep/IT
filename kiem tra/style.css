@@ -1,30 +1,50 @@
-.background {
+.wrapper {
+    display: flex;
+}
+
+.register-form {
     background-color: beige;
     width: 50%;
     margin: auto;
+    padding: 30px;
 }
-    
-.h1 {
+
+.title {
     margin: 0px;
     text-align: center;
     text-decoration: underline;
 }
-.div {
+
+.field {
+    padding-bottom: 20px;
+    margin-right: 30px;
     display: flex;
 }
-.width {
+
+.field-label {
+    font-size: 20px;
+    width: 40%;
+    padding-left: 70px;
+}
+
+.field-input {
     width: 300px;
     height: 30px;
 }
-label {
-    font-size: 20px;
+
+.wrapper-radio {
+    margin-left: -2%;
 }
-.radio {
-    width: 30px;
-    height: 30px;
+
+.radio-input {
+    width: 15px;
+    height: 15px;
 }
-.field{
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 20px;
+
+.label-gender {
+    padding: 0;
+}
+
+.submit {
+    margin-right: 50px;
 }
