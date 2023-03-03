@@ -37,11 +37,11 @@
         placeholder="$0-$25,000"
         class="number1"
       /><br />
-      <p>Gender</p><br />
+      <label>Gender</label><br />
       <input type="radio" name="gender1" id="male" value="Male" />
       <label for="male">Male</label><br />
-      <input type="radio" name="gender2" id="female" value="Female" />
-      <laber for="female">Female</laber><br />
+      <input type="radio" name="gender1" id="female" value="Female" />
+      <label for="female">Female</label><br />
       <p>
         Which of the following product have your purchased in the last 2 months.
         Please check all that apply.
@@ -53,24 +53,33 @@
       <input type="checkbox" name="product3" id="product3" value="product 3" />
       <label for="product3">Product 3</label><br />
       <p>How often would you use our new product?</p>
-      <input type="radio" name="often" value="Daily" />
-      <label for="often">Daily</label><br />
-      <input type="radio" name="often" value="Weekly" />
-      <label for="often">Weekly</label><br />
-      <input type="radio" name="often" value="Monthly" />
-      <label for="often">Monthly</label>
+      <input type="radio" name="often" id="Daily" value="Daily" />
+      <label for="Daily">Daily</label><br />
+      <input type="radio" name="often" id="Weekly" value="Weekly" />
+      <label for="Weekly">Weekly</label><br />
+      <input type="radio" name="often" id="Monthly" value="Monthly" />
+      <label for="Monthly">Monthly</label>
     </form>
     <p>What would you pay for the new product?</p>
     <label for="number1">$</label>
-    <input type="number" name="number1" value="" />.
-    <input type="number" name="cents" value="" /><br />
+    <input type="text" name="number1" value="" class="width2" />.
+    <input type="text" name="cents" value="" class="width" /><br />
+    <label class="text_p">Dollars</label>
+    <label class="text_c">Cents</label><br />
     <label for="text"
       >What features would you like to see in the new product.</label
     ><br />
-    <textarea id="text" name="text" rows="max" cols="10"></textarea><br />
+    <textarea
+      id="text"
+      name="text"
+      rows="max"
+      cols="10"
+      class="width3"
+    ></textarea
+    ><br />
     <p>Please rate your level of agreement with the following statements.</p>
     <br />
-    <table border="1">
+    <table class="border2">
       <tr>
         <th></th>
         <th>Strongly Disagree</th>
@@ -80,33 +89,62 @@
       </tr>
       <tr>
         <th>Our product are priced fairly</th>
-        <td>
+        <td class="inline">
+          <input type="radio" name="priced" id="1" value="1" /><br />
           <label for="1">1</label>
-          <input type="radio" name="1" value="" />
         </td>
-        <td>
+        <td class="inline">
+          <input type="radio" name="priced" id="2" value="2" /><br />
           <label for="2">2</label>
-          <input type="radio" name="2" value="" />
         </td>
-        <td>
+        <td class="inline">
+          <input type="radio" name="priced" id="4" value="3" /><br />
           <label for="3">3</label>
-          <input type="radio" name="3" value="" />
         </td>
-        <td>
+        <td class="inline">
+          <input type="radio" name="priced" id="4" value="4" /><br />
           <label for="4">4</label>
-          <input type="radio" name="4" value="" />
         </td>
       </tr>
       <tr>
         <th>Our products are high quality.</th>
-        <td>
-          <label for="1">1</label>
-          <input type="radio" name="1" value="" />
+        <td class="inline">
+          <input type="radio" name="high" id="5" value="1" /><br />
+          <label for="5">1</label>
         </td>
-        <td>
-          <label></label>
+        <td class="inline">
+          <input type="radio" name="high" id="6" value="2" /><br />
+          <label for="6">2</label>
+        </td>
+        <td class="inline">
+          <input type="radio" name="high" id="7" value="3" /><br />
+          <label for="7">3</label>
+        </td>
+        <td class="inline">
+          <input type="radio" name="high" id="8" value="4" /><br />
+          <label for="8">4</label>
+        </td>
+      </tr>
+      <tr>
+        <th>You would recommend our product to a friend or coworker.</th>
+        <td class="inline">
+          <input type="radio" name="recommend" id="9" value="1" /><br />
+          <label for="9">1</label>
+        </td>
+        <td class="inline">
+          <input type="radio" name="recommend" id="10" value="2" /><br />
+          <label for="10">2</label>
+        </td>
+        <td class="inline">
+          <input type="radio" name="recommend" id="11" value="3" /><br />
+          <label for="11">3</label>
+        </td>
+        <td class="inline">
+          <input type="radio" name="recommend" id="12" value="4" /><br />
+          <label for="12">4</label>
         </td>
       </tr>
     </table>
+    <button type="submit">Submit</button>
   </body>
 </html>

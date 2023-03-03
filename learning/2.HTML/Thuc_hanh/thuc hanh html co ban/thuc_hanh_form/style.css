@@ -70,3 +70,56 @@ form {
 .number1 {
     width: 200px;
 }
+.text_p {
+    color: sienna;
+    padding-left: 20px;
+    margin: 0px;
+    font-size: small;
+}
+.width {
+  width: 20px;
+}
+.width2 {
+  width: 50px;
+}
+.text_c {
+  font-size: smaller;
+  color: sienna;
+  padding-left: 10px;
+}
+.width3 {
+  width: 50%;
+}
+.border2 {
+  border: 1px solid black;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.inline {
+  text-align: center;
+}
+/*bai 62*/
+.blue {
+  color: blue;
+  margin: 0px;
+}
+.image {
+  background-color: yellow;
+  width: 500px;
+}
+.widthfour {
+  width: 100px;
+}
+.widthfive {
+  width: 200px;
+  padding-bottom: 40px;
+}
+.pepper {
+  background-color: aqua;
+}
+.input {
+ display: flex;
+ align-items: center;
+}
