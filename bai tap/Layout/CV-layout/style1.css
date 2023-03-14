@@ -172,7 +172,8 @@ i {
     width: 100%;
     height: 50px;
 }
-.hr6 {
+
+.target hr {
     border: 0.5px solid coral;
     margin-left: 240px;
     width: 450px;
