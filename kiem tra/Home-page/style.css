@@ -1,0 +1,144 @@
+/* navigation */
+.nav {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  border-block-end-width: 5px;
+  border-block-end-style: solid;
+  border-block-end-color: darkgrey;
+}
+.logo {
+  margin-left: 100px;
+}
+.menu ul {
+  float: right;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+.menu ul li {
+  margin-top: 10px;
+  list-style: none;
+}
+.menu ul li a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+}
+.home {
+  margin-left: 100px;
+  width: 80px;
+}
+.aboutus {
+  width: 100px;
+}
+.outwork {
+  width: 107px;
+}
+.clients {
+  width: 90px;
+}
+.ourblog {
+  width: 114px;
+}
+.contact {
+  width: 73px;
+}
+.dark-mode {
+  margin-left: 200px;
+  margin-top: 10px;
+}
+/*section*/
+.section {
+  background-color: rgb(247, 229, 223) ;
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+.digital {
+  margin-left: 100px;
+  display: inline-block;
+  margin-top: 134px;
+}
+.text-color {
+  color: orangered;
+}
+.digital-h1 {
+  font-size: 40px;
+  margin-top: 46px;
+}
+.digital-p {
+  color: grey;
+  margin-top: -11px;
+}
+.button {
+  margin-top: 25px;
+  width: 115px;
+  background-color: orangered;
+  color: white;
+  border: 2px solid orangered;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 2px 2px 2px lightsalmon inset;
+}
+.banner {
+  margin-top: 129px;
+  max-width: 560px;
+  margin-left: 63px;
+}
+.icon-banner {
+  color:orangered;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  justify-content: center;
+}
+.ideas {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  height: 800px;
+}
+.banner2 {
+  margin-top: 160px;
+}
+.making-ideas {
+  margin-top: 60px;
+}
+.ideas-p {
+  color: grey;
+}
+.ideas-h1 {
+  font-size: 40px;
+  margin-top: -5px;
+}
+.first-box {
+  border: 2px solid darkgray;
+  width: 250px;
+  height: 200px;
+  position: relative;
+}
+.icon-first {
+  position: absolute;
+  color: orangered;
+  font-size: 30px;
+}
+
+.vector {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  
+} 
+.circle1 {
+  background: orangered;
+  border: 0.1875em solid rgb(235, 146, 146);
+  border-radius: 50%;
+  box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+  height: 5em;
+  width: 5em;
+  margin-left: 67px;
+  margin-top: -2px;
+}
