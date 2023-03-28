@@ -1,0 +1,74 @@
+/* Reset css bootstrap */
+.btn:hover {
+    opacity: 0.7;
+    color: var(--white);
+}
+
+/* Common css */
+.section-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7B7B7B;
+    text-align: center;
+}
+
+.circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Custom css */
+.header-logo {
+    align-items: center;
+    display: flex;
+}
+
+.menu {
+    margin: 0 auto;
+}
+
+.dark-mode {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.digital {
+    background-color: var(--orange);
+}
+
+.digital-text-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.digital-text-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text-mysticRed {
+    color: var(--mysticRed)
+}
+
+.text-grey {
+    color: grey;
+}
+
+.mg-button1 {
+    background-color: var(--mysticRed);
+}
+
+.circle-file{
+    background-color: var(--mysticRed);
+}
+
+.circle-code{
+    background-color: red;
+}
