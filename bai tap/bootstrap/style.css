@@ -1,74 +1,201 @@
 /* Reset css bootstrap */
 .btn:hover {
-    opacity: 0.7;
-    color: var(--white);
+  opacity: 0.7;
+  color: var(--white);
 }
 
 /* Common css */
 .section-title {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7B7B7B;
-    text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7b7b7b;
+  text-align: center;
 }
 
-.circle{
-    width: 25px;
-    height: 25px;
-    border-radius: 13px;
-    display: flex;
-    justify-content: center;
+.circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
 }
 
 /* Custom css */
+.social-icon {
+  position: fixed;
+  top: 30%;
+  right: 10px;
+}
+
+.reactango {
+  width: 40px;
+  height: 40px;
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.reactango i {
+  color: var(--mysticRed);
+  width: auto;
+  height: auto;
+}
+
+.reactango:hover {
+  background-color: var(--mysticRed);
+}
+
+.reactango:hover i {
+  color: var(--white);
+}
+
 .header-logo {
-    align-items: center;
-    display: flex;
+  align-items: center;
+  display: flex;
 }
 
 .menu {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .dark-mode {
-    display: flex;
-    justify-content: end;
-    align-items: center;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 
 .digital {
-    background-color: var(--orange);
+  background-color: var(--orange);
 }
 
 .digital-text-title {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 60px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
 }
 
 .digital-text-description {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .text-mysticRed {
-    color: var(--mysticRed)
+  color: var(--mysticRed);
 }
 
 .text-grey {
-    color: grey;
+  color: var(--romanticGrey);
 }
 
 .mg-button1 {
-    background-color: var(--mysticRed);
+  background-color: var(--mysticRed);
 }
 
-.circle-file{
-    background-color: var(--mysticRed);
+.circle-file {
+  background-color: var(--mysticRed);
 }
 
-.circle-code{
-    background-color: red;
+.circle-code {
+  background-color: red;
+}
+
+/* Experience */
+.experiencer {
+  box-shadow: 0px 1px 10px rgb(0 0 0 / 10%);
+}
+
+.experience-spacing {
+  margin-top: 80px;
+}
+
+/* Team member */
+.border-team {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+.team-member {
+  right: 0;
+  top: 0;
+  display: none;
+}
+.team-hover:hover .team-member {
+  display: grid;
+}
+/* Designed */
+.active {
+  color: var(--mysticRed);
+}
+/*Clients*/
+.client-border {
+  width: 450px;
+  height: 200px;
+}
+.justin {
+  margin-left: -50px;
+  margin-top: 15px;
+}
+/*blog*/
+.blogs-border {
+  width: 520px;
+  height: 300px;
+}
+.text-1 {
+  margin-left: 14px;
+  margin-top: 32px;
+  padding-right: 195px;
+}
+.text-2 {
+  margin-left: 91px;
+  margin-top: 225px;
+}
+.keyboard {
+  margin-left: 324px;
+  margin-top: 20px;
+}
+.cris {
+  margin-left: 20pxpx;
+  margin-top: 200px;
+}
+/*contact-us*/
+.contact-border {
+  width: 300px;
+  height: 180px;
+}
+.mail {
+  margin-left: 20px;
+  margin-top: 104px;
+}
+.drop {
+  margin-left: 82px;
+  margin-top: 20px;
+}
+.icon-mail {
+  font-size: 27px;
+}
+.circle-contact {
+  width: 44px;
+  height: 44px;
+  margin-left: 20px;
+  margin-top: 26px;
+}
+.input-border {
+  width: 300px;
+  height: 40px;
+}
+.input-send {
+  width: 633px;
+  padding-bottom: 100px;
+  margin-left: 10px;
+}
+/*footer*/
+.footer-border {
+  width: 60px;
+  height: 54px;
+}
+.gmail-border {
+  width: 180px;
+  padding-bottom: 25px;
 }
