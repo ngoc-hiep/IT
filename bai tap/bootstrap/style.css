@@ -197,5 +197,9 @@
 }
 .gmail-border {
   width: 180px;
-  padding-bottom: 25px;
+  padding-bottom: 16px;
+  padding-top: 10px;
+}
+.border-box {
+  border: 2px solid var(--mysticRed);
 }
