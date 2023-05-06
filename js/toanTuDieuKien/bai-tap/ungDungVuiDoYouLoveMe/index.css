@@ -1,0 +1,10 @@
+.h1 {
+    position: absolute;
+}
+.input-yes {
+    position: absolute;
+}
+.input-no {
+    position: absolute;
+    left: 80px;
+}

@@ -1,0 +1,18 @@
+.number {
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    color: red;
+}
+.border {
+    border: 5px solid black;
+    width: 480px;
+    height: 300px;
+    margin-top: 10px;
+}
+.input {
+    width: 433px;
+    height: 50px;
+    margin-left: 13px;
+    margin-top: 10px;
+}
